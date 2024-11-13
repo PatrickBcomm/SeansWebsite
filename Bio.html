@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sean</title>
+    <style>
+        body {
+            background-color: #1A1A1A;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1A1A1A;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .header h1 {
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ffff;
+            margin: 0;
+            display: flex;
+            align-items: center; /* Center text and image vertically */
+        }
+
+        .header img {
+            margin-left: 10px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%; /* Make the image circular */
+            object-fit: cover; /* Ensure the image covers the circular area */
+        }
+
+        .nav-links {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .nav-links a {
+            margin-left: 20px;
+            color: #ffff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        .text-container  {
+            position: relative;
+            width: 100%;
+            height: 90vh;
+            padding: 0 20px;
+            padding-top: 60px;
+            background-image: url('Girl3.jpg');  /* Make sure the path is correct */ 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+
+        .text-container p {
+            font-size: 36px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            line-height: 1.6;
+            margin: 0;
+            max-width: 55%;
+        }
+
+        .learn-more {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #2A2A2A;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: left;
+            transition: color 0.3s ease, transform 0.3s ease;
+            transform-origin: center;
+        }
+
+        .learn-more:hover {
+            text-decoration: underline;
+            color: #2A2A2A;
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Sean Keneally <img src="Girl2.jpg" alt="Logo" /></h1>  <!-- Ensure path is correct -->
+        <div class="nav-links">
+            <a href="">Home</a>
+            <a href="">Contact Us</a>
+            <a href="">Calendar</a>
+            <a href="">YouTube</a>
+        </div>
+    </div>
+
+    <div class="text-container">
+        <p>
+            Welcome to my biography. Here you can scroll down to see photos of my recent gigs and performances!
+        </p>
+        <a href="LearnMore.html" class="learn-more">Contact Me Here!</a>
+    </div>
+</body>
+</html>
